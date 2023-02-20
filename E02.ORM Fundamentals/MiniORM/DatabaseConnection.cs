@@ -1,11 +1,13 @@
 ﻿using System.ComponentModel.DataAnnotations;
+
 using Microsoft.Data.SqlClient;
+
+namespace MiniORM;
+
 /// <summary>
 /// Used for accessing a database, inserting/updating/deleting entities
 /// and mapping database columns to entity classes.
 /// </summary>
-namespace MiniORM;
-
 internal class DatabaseConnection
 {
     private readonly SqlConnection connection;
@@ -252,6 +254,7 @@ internal class DatabaseConnection
     public SqlTransaction StartTransaction()
     {
         this.transaction = this.connection.BeginTransaction();
+
         return this.transaction;
     }
 
