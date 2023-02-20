@@ -3,6 +3,6 @@
     public static class Config
     {
         public const string ConnectionString =
-            @"Server=DESKTOP-2ASBARL\SQLEXPRESS;Database=MiniORM;Integrated Security=True;Encrypt=False;";
+            @"Server=.\SQLEXPRESS;Database=MiniORM;Integrated Security=True;Encrypt=False;";
     }
 }
