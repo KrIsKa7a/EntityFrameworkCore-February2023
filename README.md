@@ -6,3 +6,4 @@
 1. [**ADO.NET**](https://github.com/KrIsKa7a/EntityFrameworkCore-February2023/tree/main/E01.ADO.NET)
 2. [**ORM Fundamentals**](https://github.com/KrIsKa7a/EntityFrameworkCore-February2023/tree/main/E02.ORM%20Fundamentals)
 3. [**Entity Framework Introduction**](https://github.com/KrIsKa7a/EntityFrameworkCore-February2023/tree/main/E03.Entity%20Framework%20Introduction)
+4. [**Entity Relations**](https://github.com/KrIsKa7a/EntityFrameworkCore-February2023/tree/main/E04.%20Entity%20Relations)
