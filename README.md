@@ -9,3 +9,4 @@
 4. [**Entity Relations**](https://github.com/KrIsKa7a/EntityFrameworkCore-February2023/tree/main/E04.%20Entity%20Relations)
 5. [**LINQ**](https://github.com/KrIsKa7a/EntityFrameworkCore-February2023/tree/main/E05.%20LINQ/MusicHub)
 6. [**Advanced Querying**](https://github.com/KrIsKa7a/EntityFrameworkCore-February2023/tree/main/E06.%20Advanced%20Querying)
+7. [**Auto Mapping Objects**](https://github.com/KrIsKa7a/EntityFrameworkCore-February2023/tree/main/E07.%20Auto%20Mapping%20Objects)
