@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FastFood.Data\FastFood.Data.csproj" />
+    <ProjectReference Include="..\FastFood.Models\FastFood.Models.csproj" />
+    <ProjectReference Include="..\FastFood.Services.Mapping\FastFood.Services.Mapping.csproj" />
+    <ProjectReference Include="..\FastFood.Web.ViewModels\FastFood.Web.ViewModels.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,27 @@
+﻿@model IList<FastFood.Web.ViewModels.Positions.PositionsAllViewModel>
+
+@{
+    ViewData["Title"] = "All Positions";
+}
+<h1 class="text-center">@ViewData["Title"]</h1>
+<hr class="hr-2" />
+<table class="table">
+    <thead>
+        <tr class="row justify-content-center">
+            <th class="col-md-1">#</th>
+            <th class="col-md-2">Position Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        @for (var i = 0; i < Model.Count(); i++)
+        {
+            <tr class="row justify-content-center">
+                <th class="col-md-1">@(i + 1)</th>
+                <td class="col-md-2">@Model[i].Name</td>
+            </tr>
+        }
+    </tbody>
+</table>
+<div class="d-flex justify-content-center">
+    <a class="btn btn-primary ms-1" asp-controller="Positions" asp-action="Create">Create</a>
+</div>
