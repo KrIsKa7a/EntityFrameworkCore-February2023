@@ -11,3 +11,4 @@
 6. [**Advanced Querying**](https://github.com/KrIsKa7a/EntityFrameworkCore-February2023/tree/main/E06.%20Advanced%20Querying)
 7. [**Auto Mapping Objects**](https://github.com/KrIsKa7a/EntityFrameworkCore-February2023/tree/main/E07.%20Auto%20Mapping%20Objects)
 8. [**JSON Processing**](https://github.com/KrIsKa7a/EntityFrameworkCore-February2023/tree/main/E08.%20JSON%20Processing)
+9. [**XML Processing**](https://github.com/KrIsKa7a/EntityFrameworkCore-February2023/tree/main/E09.%20XML%20Processing)
