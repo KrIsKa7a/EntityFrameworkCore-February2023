@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>aspnet-PetStore.Web-b1963da8-12cc-42dd-9c94-e9f4222326f4</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="6.0.11" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.15" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.15" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.15" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.15">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.13" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PetStore.Common\PetStore.Common.csproj" />
+    <ProjectReference Include="..\PetStore.Data.Common\PetStore.Data.Common.csproj" />
+    <ProjectReference Include="..\PetStore.Data.Models\PetStore.Data.Models.csproj" />
+    <ProjectReference Include="..\PetStore.Data\PetStore.Data.csproj" />
+    <ProjectReference Include="..\PetStore.Services.Data\PetStore.Services.Data.csproj" />
+    <ProjectReference Include="..\PetStore.Services.Messaging\PetStore.Services.Messaging.csproj" />
+    <ProjectReference Include="..\PetStore.Services\PetStore.Services.csproj" />
+    <ProjectReference Include="..\PetStore.Web.Infrastructure\PetStore.Web.Infrastructure.csproj" />
+    <ProjectReference Include="..\PetStore.Web.ViewModels\PetStore.Web.ViewModels.csproj" />
+  </ItemGroup>
+
+</Project>

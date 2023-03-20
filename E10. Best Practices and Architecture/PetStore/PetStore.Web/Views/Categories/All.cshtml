@@ -1,0 +1,55 @@
+﻿@using PetStore.Web.ViewModels.Categories
+@model ListAllCategoriesViewModel
+
+@{
+    ViewData["Title"] = "All";
+}
+
+<h2>All Categories</h2>
+
+<div>
+    <a asp-action="Create" class="btn btn-primary">Create New</a>
+</div>
+<table class="table table-striped">
+    <thead>
+    <tr>
+        <th>
+            Name
+        </th>
+        <th></th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model.AllCategories) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning">Edit</a>
+                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
+
+<div class="m-4">
+    <ul class="pagination justify-content-center">
+        @for (int i = 1; i <= Model.PageCount; i++)
+        {
+            @if (i == Model.ActivePage)
+            {
+                <li class="page-item active">
+                    <a class="page-link" asp-action="All" asp-route-page="@i">@i</a>
+                </li>
+            }
+            else
+            {
+                <li class="page-item">
+                    <a class="page-link" asp-action="All" asp-route-page="@i">@i</a>
+                </li>
+            }
+        }
+    </ul> 
+</div>
