@@ -1,0 +1,29 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using Microsoft.AspNetCore.Mvc.TagHelpers
+@using Microsoft.AspNetCore.Http
+@using System.Text
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor accessor
+@inject Blog.Services.Data.IApplicationUserService userService
+
+<ul class="navbar-nav">
+    @if (accessor.HttpContext.Session.Get("userId") != null)
+    {
+        <li class="nav-item">
+            <a class="nav-link text-dark" title="Manage">Hello @{}</a>
+        </li>
+        <li class="nav-item">
+            <form class="form-inline">
+                <button type="submit" class="nav-link btn btn-link text-dark">Logout</button>
+            </form>
+        </li>
+    }
+    else
+    {
+        <li class="nav-item">
+            <a class="nav-link text-dark" asp-controller="ApplicationUser" asp-action="Register">Register</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-dark" asp-controller="ApplicationUser" asp-action="Login">Login</a>
+        </li>
+    }
+</ul>
