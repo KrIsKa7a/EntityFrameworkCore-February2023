@@ -13,3 +13,4 @@
 8. [**JSON Processing**](https://github.com/KrIsKa7a/EntityFrameworkCore-February2023/tree/main/E08.%20JSON%20Processing)
 9. [**XML Processing**](https://github.com/KrIsKa7a/EntityFrameworkCore-February2023/tree/main/E09.%20XML%20Processing)
 10. [**Best Practices and Architecture**](https://github.com/KrIsKa7a/EntityFrameworkCore-February2023/tree/main/E10.%20Best%20Practices%20and%20Architecture/PetStore)
+11. [**Workshop**](https://github.com/KrIsKa7a/EntityFrameworkCore-February2023/tree/main/E11.%20Workshop)
