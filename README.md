@@ -14,3 +14,8 @@
 9. [**XML Processing**](https://github.com/KrIsKa7a/EntityFrameworkCore-February2023/tree/main/E09.%20XML%20Processing)
 10. [**Best Practices and Architecture**](https://github.com/KrIsKa7a/EntityFrameworkCore-February2023/tree/main/E10.%20Best%20Practices%20and%20Architecture/PetStore)
 11. [**Workshop**](https://github.com/KrIsKa7a/EntityFrameworkCore-February2023/tree/main/E11.%20Workshop)
+12. [**Exam Preparation**](https://github.com/KrIsKa7a/EntityFrameworkCore-February2023/tree/main/E12.%20Exam%20Preparation)
+
+***
+
+With this we are ending the course Entity Framework Core - Jan 2023. Thanks to all students for the feedback (positive or negative) and for their big activity during the course! Wish you luch at the exam!
