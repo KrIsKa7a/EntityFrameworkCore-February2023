@@ -18,4 +18,4 @@
 
 ***
 
-With this we are ending the course Entity Framework Core - Jan 2023. Thanks to all students for the feedback (positive or negative) and for their big activity during the course! Wish you luch at the exam!
+✔️ With this we are ending the course Entity Framework Core - Jan 2023. Thanks to all students for the feedback (positive or negative) and for their big activity during the course! Wish you luch at the exam!
